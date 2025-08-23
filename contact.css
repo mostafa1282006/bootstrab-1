@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
+}
+
+.section-1 {
+  background-color: #e7eafd;
+  header {
+    font-family: "DM Sans", sans-serif;
+    img {
+      width: 200px;
+    }
+    nav {
+      a {
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #000;
+        &:hover {
+          color: #243be6 !important;
+        }
+      }
+    }
+  }
+  .logo {
+    padding: 10rem 0 3rem 0;
+    @media screen and (max-width: 767px) {
+      padding: 2rem 0 3rem 2rem;
+      gap: 50px;
+    }
+    h2 {
+      padding-top: 50px;
+      font-size: clamp(33.5px, 3vw, 3.7058823529411766rem);
+      line-height: 1.1;
+      margin: 0;
+      font-weight: 700;
+    }
+    p {
+      width: 630px;
+      max-width: 100%;
+      font-size: clamp(20px, 2vw, 1.5rem);
+      font-weight: 400;
+      font-family: "DM Sans", sans-serif;
+    }
+  }
+}
+
+.section-2 {
+  .top {
+    margin-top: 3rem;
+    gap: 2rem;
+    .son {
+      width: 400px;
+      max-width: 100%;
+      background-color: #f2f2f2;
+      padding: 1rem;
+      gap: 1.5rem;
+      text-align: center;
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #243be6;
+        img {
+          color: white;
+          width: 38px;
+        }
+      }
+      h4 {
+        font-size: 27px;
+        font-weight: 700;
+      }
+      a {
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #243be6;
+      }
+      h6 {
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+  }
+  .bottom {
+    margin-top: 7rem;
+    gap: 4rem;
+    .left {
+      .map {
+        max-width: 100%;
+        @media screen and (max-width: 767px) {
+          height: 350px;
+        }
+      }
+    }
+    .right {
+      h3 {
+        font-size: 1.88235rem;
+        margin: 0;
+        line-height: 1;
+        font-weight: 700;
+      }
+      .p1 {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.4;
+        font-family: "DM Sans", sans-serif;
+      }
+      p {
+        margin-top: 20px;
+        font-family: "DM Sans", sans-serif;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 2rem 0 1rem 1rem;
+        border: 0;
+        border-bottom: 2px solid #111111;
+      }
+      .son1 {
+        p,
+        a {
+          font-family: "DM Sans", sans-serif;
+          margin: 0;
+        }
+        input {
+          width: 13px;
+        }
+      }
+      button {
+        width: 100%;
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+        font-size: 15.75px;
+        padding: 15px 55px;
+        border: 0;
+        background-color: #243be6 !important;
+        &:hover {
+          background-color: black !important;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  margin-top: 3rem;
+  .box {
+    gap: 20px;
+    padding: 2rem 0 3rem 0;
+    .son1 {
+      width: 670px;
+      max-width: 100%;
+      h4 {
+        font-size: 27px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.2;
+      }
+    }
+    .son2,
+    .son3 {
+      width: 320px;
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 1.4;
+        letter-spacing: 1px;
+      }
+      h5 {
+        font-size: 1.25rem;
+        line-height: 1.2;
+        margin: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
