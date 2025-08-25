@@ -883,7 +883,7 @@ header {
 }
 .footer {
   .box {
-    gap: 20px;
+    gap: 50px;
     padding: 2rem 0 3rem 0;
     .son1 {
       width: 670px;
@@ -897,7 +897,6 @@ header {
     }
     .son2,
     .son3 {
-      width: 320px;
       a {
         color: white;
         text-decoration: none;
